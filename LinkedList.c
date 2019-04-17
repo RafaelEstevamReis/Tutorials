@@ -13,13 +13,15 @@ typedef struct Nodes{
     //  Carefuly insert here your stuff ...
     
 } Node;
+
 // Holds a LinkedList instance
 //  makes easy to store, maipulate and declarate a new lists
 typedef struct LinkedList{
     Node *Start, *End;
 } List;
 
-// Create a CabllBack
+// Create a CabllBack to the Enumarate function
+//  Returns FALSE to stop enumerating
 typedef bool (*callback)(List*, Node*);
 
 // Create a new empty list
