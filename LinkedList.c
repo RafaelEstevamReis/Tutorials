@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+#include <stdio.h>   // Allow the usage of printf
+#include <stdlib.h>  // Allow the usage of 'malloc', 'free' and 'system(...)'
+#include <stdbool.h> // Allow usage of 'bool', 'true' and 'false'
 
 // Create a structure to store a NODE of the List
 //  Contains all mandatory info: An ID, and the Next and prev  pointes
